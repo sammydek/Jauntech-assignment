@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.mcon{
+    /* height: 100vh;
+    width: 100%; */
+    background-color: beige;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: green;display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+
+}
+
+.setext{
+    height:  5vh;
+    width: 100%;
+    /* background-color: aqua; */
+
+}
+
+.text-holder{
+    height: 100%;
+    width: 40%;
+    /* background: #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text-holder em{
+    color: green;
+}
+
+.image-holder{
+    height: 70vh;
+    width: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 15px;
+}
+.image{
+    height: 90%;
+    width: 60%;
+    background-color: aliceblue;
+    background-image: url(./sunset.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 25px 0px 25px ;border: transparent;
+}
+
+p{
+    margin-left: 3%;
+}
+.href-holder{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.h1-holder{
+    margin-top: 3%;
+}
+.table-holderh3{
+    
+}
+h3{
+    
+    margin-top: 3%;
+}
+
+
+.intro{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+/* table{ */
+    /* border: 2px solid grey; */
+/* } */
+
+
+table {
+    width: 25%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+
